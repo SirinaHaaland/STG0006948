@@ -19,7 +19,7 @@ def convert_all_sph_in_directory(source_directory, target_directory):
             print("Conversion complete.")
 
 source_dir = "C:\\Users\\sirin\\DATBAC-1\\STG0006948\\data\\TEDLIUM_release-3\\TEDLIUM_release-3\\data\\sph"
-target_dir = "C:\\Users\\sirin\\DATBAC-1\\STG0006948\\data\\audio"
+target_dir = "C:\\Users\\sirin\\DATBAC-1\\STG0006948\\data\\audio_wav"
 
 convert_all_sph_in_directory(source_dir, target_dir)
 
@@ -33,7 +33,7 @@ source_dir (path to the directory containing the .sph files)
 target_dir (path to the directory where the .wav files will be saved)
 Open a terminal in Visual Studio Code (Terminal > New Terminal).
 Navigate to the script's directory if your terminal doesn't open there by default.
-Run the script by typing python convert_audio.py in the terminal.
+Run the script by typing python convert_audio_wav.py in the terminal.
 The script will iterate over all files in the source_dir that end with .sph, convert 
 each one to a WAV file using SoX, and save the resulting WAV files in target_dir. 
 It will print a message for each file it converts, providing feedback on the conversion process.
